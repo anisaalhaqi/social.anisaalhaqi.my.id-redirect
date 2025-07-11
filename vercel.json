@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://www.instagram.com/partofsaa_/:path(.*)",
+      "source": "/:path(.*)",
+      "destination": "https://www.instagram.com/partofsaa_/:path*",
       "statusCode": 302
     }
   ]
